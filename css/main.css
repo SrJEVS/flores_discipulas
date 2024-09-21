@@ -1646,6 +1646,13 @@ h1 {
   }
 }
 
+/* haciendo los media queries para que el texto de H1 se haga pequeño y aparezca en la pantalla en dispositivos móviles, cambiando el tamaño del div con clase "texto_mensaje" */
+@media screen and (max-width: 600px) {
+  .texto_mensaje {
+    font-size: 40px;
+  }
+}
+
 /* Poniendo el título por encima de todo */ 
 .titulo {
   font-family: "Arial Narrow", Arial, sans-serif;
@@ -1655,7 +1662,7 @@ h1 {
   top: 70%;
   width: 100%;
   text-align: center;
-  font-size: 1em;
+  font-size: 3em;
   color: #fff241;
   z-index: 1;
 }
