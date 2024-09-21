@@ -1619,7 +1619,7 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 14px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -1662,7 +1662,7 @@ h1 {
   top: 70%;
   width: 100%;
   text-align: center;
-  font-size: 3em;
+  font-size: 14px;
   color: #fff241;
   z-index: 1;
 }
