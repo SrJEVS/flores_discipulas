@@ -1628,7 +1628,7 @@ h1 {
 @media screen and (max-width: 600px) {
   /* Estilos para pantallas pequeñas */
   h1 {
-      font-size: 1.5em;
+      font-size: 14px;
   }
 }
 
@@ -1649,7 +1649,7 @@ h1 {
 /* haciendo los media queries para que el texto de H1 se haga pequeño y aparezca en la pantalla en dispositivos móviles, cambiando el tamaño del div con clase "texto_mensaje" */
 @media screen and (max-width: 600px) {
   .texto_mensaje {
-    font-size: 40px;
+    font-size: 14px;
   }
 }
 
